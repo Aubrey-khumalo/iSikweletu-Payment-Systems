@@ -1,0 +1,55 @@
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.nav-wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding: 3px;
+	background-color: #78A6C9
+
+
+}
+.left-side{
+	display: flex;
+}
+.nav-wrapper > .left-side > div{
+	margin-right: 20px;
+	marker-start: 10px;
+	font-size: 1.5em;
+	text-transform: capitalize;
+}
+.nav-link-wrapper{
+	height:30px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a{
+	color:#FFFFFF;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+.nav-link-wrapper:hover{
+	border-bottom: 2px solid white;
+}
+.nav-link-wrapper:a hover{
+	color: black;
+} 
+.appInfo{
+	display: flex;
+	justify-content: space-between;
+}
+.appInfo2{
+	display: flex;
+	justify-content: space-between;
+}
+.legendColor{
+	color: #78A6C9;
+}
+h4{
+	color: #78A6C9;
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<title> iSkweletu </title>
+<script type="text/javascript" src=scriptingFile.js></script>
+<link rel="stylesheet" type="text/css" href="stylling.css">
+</head>
+<body>
+<div id="body-div">
+<div style="color: #78A6C9"><h1> iSkweletu Payment Method, Send Money Instantly</div> <!--<script>
+var holderName;
+document.write(holderName);
+</script>-->
+</h1>
+<div class="container">
+	<div class="nav-wrapper">
+		<div class="left-side">
+			<div class="nav-link-wrapper">
+				<a href ="signUpPage.html"> Sign Up </a>
+			</div>
+			<!--<div class="=nav-link-wrapper"><p>&nbsp&nbsp</p></div>-->
+			<div class="nav-link-wrapper">
+				<a href="register.html"> Sign In </a>
+			</div>
+			<!--<div class="nav-link-wrapper"><p>&nbsp&nbsp</p></div>-->
+			<div class="nav-link-wrapper">
+				<a href="aboutPage.html"> About </a>
+			</div>
+			
+			</div>
+		<div class="right-side">
+			<div class="logo">
+				<img src="isikweletu.png" height ="35%" width="35%">
+			</div>
+		</div>
+	</div>
+</div>
+<img src="isikweletu.png"/>
+<br>
+
+
+<fieldset>
+	<legend class="legendColor"><h3>What is iSkweletu PM</h3></legend>
+	<div class="appInfo">
+		<div>
+			<p>
+			Money can cause man different arguments and conflicts between people.<br>
+			iSkweletu is a local app that can help you with your cash payments. <br>
+			You can use an USSD (dialing) payment method or this official website.<br>
+			Register to become a user of iSkweletu by clicking on sign up above on the navigaton bar.
+			</p>
+		</div>
+		<div><br></div>
+		<div>
+			<img src="PhoneCall-Encypted.gif" height="120" width="170">
+		</div>
+	</div>
+</fieldset>
+<fieldset>
+	<legend class="legendColor"><h3>How Does It Work</h3></legend>
+	<div class="appInfo2">
+	<div>
+		<p>
+		Its easy to use iSkweletu PM, a registered user can send or<br>
+		recieve money straigth into or from their specified account.<br>
+		To send money a registered user can use an SMS or this very official website.<br>
+		To register, click the above sign up link that will direct you the registraation page.<br><br>
+		<div style="color: #78A6C9"><b>We will need:<b></div>
+			<ul>
+				<li>A user email</li>
+				<li>Your cellphone number</li>
+				<li>National ID</li>
+				<li>Account holder name</li>
+			</ul>
+		</p>
+	</div>
+	<div>
+	<img src="hand-dialing-cell-phone.jpg">
+	</div>
+	</div>
+</fieldset>
+</div>
+<button onclick="onClickButton()">Click me</button>
+</div>
+</body>
+</html>

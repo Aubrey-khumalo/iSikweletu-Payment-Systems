@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Terms of Use</title>
+</head>
+<body>
+	<div style="color:#78A6C0;"><h3>iSikweletu</h3></div>
+	<div style="color: #696969;"><h1>Terms and Conditions</h1></div>
+	<ul>
+		<li>You acknowledge that neither party is obligated to enter into any business transaction<br>
+			as a result of the account registration submission.<br><br>
+		</li> 
+		<li>iSikweletu is under no obligation to reverse accepted incorrect payment to recipients.<br> 
+			If money has been sent by mistake, contact the person and ask them to send it back.<br> 
+		    If this person refuses to comply then you resort to calling the police.<br><br>
+		</li>
+		<li>By submitting this proposal, you are authorizing iSikweletu to evaluate the registration<br> details for a measure authenticity and provide tracking method for money sent unintentionally.<br><br>
+		</li>
+	</ul>
+	<input type="checkbox" name="agreement" id="agreement"> I agree with the terms and conditions.<br><br>
+	<button id="proceedButton" onclick="proceedFunction()">Proceed</button>
+	<script>
+function proceedFunction() {
+  var x = document.getElementById("agreement");
+  if(x.checked==true){
+    window.open("aboutPage.html"); 
+  }
+  else{
+  	alert("To proceed with the registration please agree to our terms and conditions by checking the checkbox provided");
+  }
+}
+</script>
+</body>
+</html>
